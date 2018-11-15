@@ -235,6 +235,8 @@ a:hover {
     font-size: 14px;
     height: 40px;
     overflow: hidden;
+    width: 150px;
+    text-align: center;
 }
 
 .nav h3 a {
@@ -243,6 +245,7 @@ a:hover {
     padding: 0 20px;
     border-left: 1px solid #4e0b0b;
     vertical-align: top;
+    font-weight:bold;
 }
 
 .nav .on {
@@ -253,6 +256,7 @@ a:hover {
     background: #333;
     color: #ff0;
     border-color: #a74545 !important;
+    font-weight:bold;
 }
 
 .nav .sub {
@@ -293,7 +297,7 @@ a:hover {
 /* banner */
 
 .banner {
-    min-width: 1000px;
+    min-width: 980px;
     position: relative;
     height: 499px;
     overflow: hidden;
